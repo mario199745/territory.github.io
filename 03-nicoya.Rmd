@@ -1,6 +1,6 @@
 ---
 title: "Nicoya"
-author: "Ronny A. Hernández Mora"
+author: "Mario Caceres"
 date: "13/01/2022"
 output: html_document
 ---
