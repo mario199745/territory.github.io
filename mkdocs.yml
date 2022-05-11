@@ -1,0 +1,8 @@
+site_name: territory.github.io
+site_author: Mario Caceres
+site_url: https://mario199745.github.io/territory.github.io/
+theme:
+   name: material
+markdown_extensions:
+   - toc:
+      permalink: []
