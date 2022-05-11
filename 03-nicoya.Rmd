@@ -1,0 +1,25 @@
+---
+title: "Nicoya"
+author: "Ronny A. Hernández Mora"
+date: "13/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What is Nicoya?
+
+From [wikipedia](https://en.wikipedia.org/wiki/Nicoya)
+
+ > Nicoya is a district and head city of the Nicoya canton, in the Guanacaste province of Costa Rica, located on the Nicoya Peninsula.[2][3] It is one of the country's most important tourist zones; it serves as a transport hub to Guanacaste's beaches and national parks.
+
+![](images/nicoya_wikipedia.png)
+
+It's a super nice place with beautiful landscapes, sunsets and people with a
+really rich culture.
+
+![](images/nicoya_sunset.jpg)
+
+![](images/nicoya_lanscape.jpg)

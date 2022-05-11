@@ -1,0 +1,40 @@
+---
+title: "How to use ggplot"
+author: "Ronny A. Hernández Mora"
+date: "13/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(janitor)
+library(dplyr)
+```
+
+Let's create a scatterplot with `ggplot2` and the iris dataset
+
+## Explore the data
+
+```{r}
+iris_clean <- iris %>% 
+  clean_names()
+
+glimpse(iris_clean)
+```
+
+## Create a scatterplot
+
+```{r}
+ggplot(data = iris_clean, aes(x = sepal_length, y = sepal_width, color = species)) +
+  geom_point(size = 3) +
+  scale_color_viridis_d() +
+  labs(x = "Sepal length",
+       y = "Sepal width",
+       color = "Species") +
+  theme_light(base_size = 12)
+```
+
